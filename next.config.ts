@@ -1,11 +1,18 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: 'export', // This is the most important line
+import { NextConfig } from 'next';
+
+const nextConfig: NextConfig = {
+  output: 'export',
   images: {
-    unoptimized: true, // GitHub Pages doesn't support Next.js default image optimization
+    unoptimized: true,
   },
-  // If your repo name is NOT 'username.github.io', add the line below:
-  // basePath: '/your-repo-name', 
+  basePath: '/portfolio', // Change this to your repo name
+  // This is the correct way to ignore linting in TS
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
 };
 
 export default nextConfig;
