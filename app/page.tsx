@@ -57,7 +57,7 @@ export default function Home() {
             {/* Text Container */}
             <div className="max-w-xl text-center md:text-left flex flex-col gap-10">
               <p className="text-lg text-zinc-300 leading-relaxed">
-                I am a dedicated third-year Engineering Science student majoring in Physics at the University of Toronto. I have a strong passion for problem-solving and a keen interest in applying physics principles to real-world challenges.  
+                I am a dedicated third-year Engineering Science student majoring in Engineering Physics at the University of Toronto. I have a strong passion for problem-solving and a keen interest in applying physics principles to real-world challenges.  
               </p>
               
               <p className="text-lg text-zinc-300 leading-relaxed">
