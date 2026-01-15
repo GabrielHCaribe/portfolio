@@ -359,7 +359,7 @@ export default function Navigation() {
                 ))}
              </div>
           </div>
-          <Link href="mailto:g.caribe@mail.utoronto.ca?subject=Reaching out from your Portfolio" className="mt-4 px-10 py-4 justify-center min-w-[60px] bg-white text-black text-lg font-bold rounded-full">
+          <Link href="mailto:g.caribe@mail.utoronto.ca?subject=Reaching out from your Portfolio" className="mt-4 flex px-10 py-4 justify-center min-w-[80px] bg-white text-black text-lg font-bold rounded-full">
             Contact
           </Link>
         </div>
