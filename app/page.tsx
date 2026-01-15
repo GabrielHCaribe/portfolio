@@ -27,7 +27,7 @@ export default function Home() {
           </p>
           <button
             onClick={() => scrollToSection('about')}
-            className="px-8 py-3 bg-[#ea580c] hover:bg-[#f97316] text-white font-medium rounded-lg transition-colors"
+            className="px-8 py-3 justify-center min-w-[100px] bg-[#ea580c] hover:bg-[#f97316] text-white font-medium rounded-lg transition-colors"
           >
             Get in touch
           </button>
